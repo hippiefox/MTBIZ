@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MTBIZ_Example' do
+  pod 'MTBIZ', :path => '../'
+
+  target 'MTBIZ_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
