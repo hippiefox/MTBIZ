@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		3706642910D71736B387A919 /* Pods_MTBIZ_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTBIZ_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E960F0B2763B79BDADEC1A1 /* Pods_MTBIZ_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTBIZ_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F1D36C0DF0364EDA8442AB5 /* MTBIZ.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MTBIZ.podspec; path = ../MTBIZ.podspec; sourceTree = "<group>"; };
+		5F1D36C0DF0364EDA8442AB5 /* MTBIZ.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MTBIZ.podspec; path = ../MTBIZ.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* MTBIZ_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTBIZ_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* MTBIZ_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTBIZ_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6474D74C2DE44685EA7E1E70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6474D74C2DE44685EA7E1E70 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		85BC585B9F1A8C36EF639FA9 /* Pods-MTBIZ_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTBIZ_Example.release.xcconfig"; path = "Target Support Files/Pods-MTBIZ_Example/Pods-MTBIZ_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD361C9740C6C9BE4AC1EE44 /* Pods-MTBIZ_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTBIZ_Example.debug.xcconfig"; path = "Target Support Files/Pods-MTBIZ_Example/Pods-MTBIZ_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D1F37E2368A66743279B0AA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1F37E2368A66743279B0AA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED6D8C6ADBACDCDDA86EE5CE /* Pods-MTBIZ_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTBIZ_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MTBIZ_Tests/Pods-MTBIZ_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F808D184499098D7E1054969 /* Pods-MTBIZ_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTBIZ_Tests.release.xcconfig"; path = "Target Support Files/Pods-MTBIZ_Tests/Pods-MTBIZ_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				ED6D8C6ADBACDCDDA86EE5CE /* Pods-MTBIZ_Tests.debug.xcconfig */,
 				F808D184499098D7E1054969 /* Pods-MTBIZ_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 539L9S3WP5;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 539L9S3WP5;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +272,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MTBIZ_Example/Pods-MTBIZ_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MTBIZ/MTBIZ.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTBIZ.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,7 +482,9 @@
 			baseConfigurationReference = BD361C9740C6C9BE4AC1EE44 /* Pods-MTBIZ_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				INFOPLIST_FILE = MTBIZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +499,9 @@
 			baseConfigurationReference = 85BC585B9F1A8C36EF639FA9 /* Pods-MTBIZ_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				INFOPLIST_FILE = MTBIZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED6D8C6ADBACDCDDA86EE5CE /* Pods-MTBIZ_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F808D184499098D7E1054969 /* Pods-MTBIZ_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 539L9S3WP5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

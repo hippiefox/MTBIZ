@@ -1,0 +1,23 @@
+PODS:
+  - MTBIZ (0.1.0):
+    - SwiftyJSON
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - MTBIZ (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  MTBIZ:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTBIZ: 432a4e44a85e08b0c051d1c2deff4a15d47e3059
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 40b4fc6a6704f556c9b81f512f2971d27c029fc8
+
+COCOAPODS: 1.13.0
